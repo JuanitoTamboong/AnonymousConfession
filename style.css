@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+.container{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 50px;
+    overflow: hidden;
+    background: #000;
+}
+.container h2{
+    color: #fff;
+    text-align: center;
+    padding-bottom: 23px;
+    font-family: 'Inspiration', cursive;
+    font-size: 30px;
+    word-spacing: 4px;
+
+}
+.box label {
+color: #fff;
+font-family: sans-serif;
+font-weight: 600;
+font-size: 17px;
+}
+input[type=text]{
+    border: none;
+    outline: none;
+    height: 30px;
+    width:80%;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: bold
+
+}
+input[type=text]:focus{
+    background-color:#d3147aad ;
+    color: #fff;
+   transition: all 1s ease-in;
+}
+input[type=submit]{
+    padding: 7px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+input[type=submit]:hover{
+    background-color:#d3147aad ;
+   transition: all 1s ease-out;
+   color: #fff;
+}
+.animated-icon img{
+    margin-top: 10px;
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    animation: m 5s ;
+    margin-left: 45%;
+}
+@keyframes m{
+    0%{
+        transform: translateY(-400px);
+    }
+   
+}
