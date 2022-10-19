@@ -12,3 +12,4 @@ $hades = ("Date & Time:". $date."\nAnonymous:". $anonymous."\n\n");
 fputs($file,$hades);
 
 fclose($file);
+?>
